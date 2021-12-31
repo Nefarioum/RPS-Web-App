@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32" type="image/png">
+
+
+    <title>Rock, Paper Scissors.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="jsTitle">Rock, Paper, Scissors.</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-badge" class="badge">user</div>
+        <div id="comp-badge" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="draw-score">0</span>:<span id="comp-score">0</span>
+
+    </div>
+
+    <div class="result">
+        <p>Click on one of the options.</p>
+    </div>
+
+    <div class="choices">
+        <div id="r" class="choice">
+            <img src="https://img.icons8.com/color/96/000000/hand-rock.png" alt="">
+        </div>
+        <div id="p" class="choice">
+            <img src="https://img.icons8.com/color/96/000000/hand.png" alt="">
+        </div>
+        <div id="s" class="choice">
+            <img src="https://img.icons8.com/color/96/000000/hand-scissors.png" alt="">
+        </div>
+    </div>
+
+    <p id="action-message">Now make your move. | Matches played: 0</p>
+
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
